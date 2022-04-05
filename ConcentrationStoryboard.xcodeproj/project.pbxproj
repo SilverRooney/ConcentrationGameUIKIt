@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D739041C27FA7EDF00FDBE16 /* ConcentrationStoryboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ConcentrationStoryboard.entitlements; sourceTree = "<group>"; };
 		D76A76F227B2E3630070EA22 /* ConcentrationStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcentrationStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76A76F527B2E3630070EA22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D76A76F727B2E3630070EA22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 		D76A76F427B2E3630070EA22 /* ConcentrationStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				D739041C27FA7EDF00FDBE16 /* ConcentrationStoryboard.entitlements */,
 				D76A770927B5791E0070EA22 /* Concentration.swift */,
 				D76A770B27B57AF70070EA22 /* Card.swift */,
 				D76A76F527B2E3630070EA22 /* AppDelegate.swift */,
@@ -295,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ConcentrationStoryboard/ConcentrationStoryboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -322,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ConcentrationStoryboard/ConcentrationStoryboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
